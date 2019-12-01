@@ -1,0 +1,39 @@
+.cacul{
+    width: 500px;
+    height: 460px;
+    padding: 5px;
+    border-radius: 8px 8px 0 0;
+    background-color: blueviolet;
+}
+.title{
+    text-align: center;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 10px 20px;
+    /* margin: 8px 0; */
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.tb_cacul{
+    margin-top:10px;
+    background-color: brown;
+}
+table{
+    width:100%;
+}
+td{ 
+    text-align: center;
+}
+button{
+    padding: 12px 24px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.equal{
+    padding-left: 50px;
+    padding-right: 50px;
+}

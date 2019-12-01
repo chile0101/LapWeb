@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+		<!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<style>
+			table,button{
+				margin: 5px;
+			}
+
+		</style>
+    <script src="main.js"></script>
+    
+</head>
+   
+<body>
+		<table id="create_table"></table>
+    <button class="btn btn-primary" onclick="btnCreateTable()">Create Table (2x2) </button>
+		<table border="1" id="addrow">
+			<tr>
+				<td >value</td>
+				<td>value</td>
+			</tr>
+			<tr>
+				<td>value</td>
+				<td>value</td>
+			</tr>
+		</table>
+		<button class="btn btn-primary" onclick="btnAddRow()"> Add Row</button>
+		<table border="1" id="addcol">
+			<tr>
+				<td>value</td>
+				<td>value</td>
+			</tr>
+			<tr>
+				<td>value</td>
+				<td>value</td>
+			</tr>
+		</table>
+		<button class="btn btn-primary" onclick="btnAddCol()">Add Col</button>
+		<table border="1" id="toRemove" >
+		<tr>
+			<td>Hello</td>
+			<td>value</td>
+			<td>value</td>
+			<td>value</td>
+			<td>value</td>
+		</tr>
+			<tr>
+				<td>I</td>
+				<td>value</td>
+				<td>value</td>
+				<td>value</td>
+				<td>value</td>
+			</tr>
+			<tr>
+				<td>Am</td>
+				<td>value</td>
+				<td>value</td>
+				<td>value</td>
+				<td>value</td>
+			</tr>
+			<tr>
+				<td>Studen</td>
+				<td>value</td>
+				<td>value</td>
+				<td>value</td>
+				<td>value</td>
+			</tr>
+			
+		</table>
+		
+		Number of row/col : <input type="text" id="num"><br><br>
+		<button class="btn btn-danger" style="float:left" onclick="btnRmRow()" >Remove Row</button>
+		<button class="btn btn-warning"onclick="btnRmCol()">Remove Col</button>
+
+		<br>
+		<button class="btn btn-dark"onclick="btnRmAllTable()">Remove All Tables</button>
+</body>
+</html>
+
+<!-- if(confirm("Want to delete?")) functionName() -->

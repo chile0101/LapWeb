@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cacul.css">
+    <script src = "cacul.js" ></script> 
+    <title>Caculator</title>
+</head>
+<body>
+    <div class="cacul">
+        <div class="title">
+           <h3> Caculator</h3>
+        </div>
+            
+        <div class="fm_cacul">
+            <form name="form">
+                <input type="text"  name="exp" id="exp"  value="">
+                <input type="text"  name="result" id="result">
+            </form>
+        </div>
+
+        <div class="tb_cacul">
+            <table border="1px">    
+                <tr>
+                    <td><button id="seven" onclick="show(7)">7</button></td>
+                    <td><button id="eight" onclick="show(8)">8</button></td>
+                    <td><button id="nine"  onclick="show(9)">9</button></td>
+                    <td><button id="division" onclick="show('/')">/</button></td>
+                    <td><button id="ac" onclick="ac_btn()">AC</button></td>
+                    <td><button id="close" onclick="dete()"><i class="fa fa-close"></i></button></td>
+                </tr>
+                <tr>
+                    <td><button id="four"  onclick="show(4)">4</button></td>
+                    <td><button id="five " onclick="show(5)">5</button></td>
+                    <td><button id="six"   onclick="show(6)">6</button></td>
+                    <td><button id="mul"   onclick="show('*')">*</button></td>
+                    <td><button id="lp"    onclick="show('(')">(</button></td>
+                    <td><button id="rp"   onclick="show(')')"> )</button></td>
+                </tr>
+                <tr>
+                    <td><button id="one" onclick="show(1)">1</button></td>
+                    <td><button id="two" onclick="show(2)">2</button></td>
+                    <td><button id="three" onclick="show(3)">3</button></td>
+                    <td><button id="sub" onclick="show('-')">-</button></td>
+                    <td><button id="square">x<sub>2</sub> </button></td>
+                    <td><button id="sqrt">&radic;</button></td>
+                </tr>
+                <tr>
+                    <td><button id="zero" onclick="show(0)" >0</button></td>
+                    
+                    <td><button id="dot" onclick="show('.')">.</button></td>
+                    <td><button id="div" onclick="show('%')">%</button></td>
+                    <td><button id="add" onclick="show('+')">+</button></td>
+                    <th colspan="2"><button class="equal" onclick="result()">=</button></th>
+                </tr>
+            </table>
+        
+        </div>
+    </div>
+   
+    <script>
+        
+        
+    </script>
+</body>
+</html>
+
+
